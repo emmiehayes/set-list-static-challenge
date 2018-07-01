@@ -12,7 +12,6 @@ h1{
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  background-color: #E0FFFF;
   padding: 10px;
-}
+  text-align: center;
 }
