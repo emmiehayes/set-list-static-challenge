@@ -8,7 +8,7 @@
   </head>
   <body>
       <h1>SONGS</h1>
-    <section class="song-grid">
+    <div class="grid-container">
         <% songs.each do |song| %>
         <ul>
           <img src="planet.jpg" alt="planet graphic"/>
@@ -17,6 +17,6 @@
           <li> <%= song.play_count %></li>
         </ul>
         <% end %>
-    </section>
+    </div>
   </body>
 </html>

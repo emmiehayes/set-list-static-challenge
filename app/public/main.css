@@ -1,5 +1,18 @@
 body {
-  background-color: #E0FFFF;
+      background-color: #ccffff;
+      font-family: 'Raleway', sans-serif;
 }
 
-img {}
+h1{
+  font-size: 2em;
+  float: center;
+  font-style: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #E0FFFF;
+  padding: 10px;
+}
+}
