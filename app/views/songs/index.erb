@@ -11,7 +11,9 @@
     <div class="grid-container">
         <% songs.each do |song| %>
         <ul>
-          <img src="planet.jpg" alt="planet graphic"/>
+          <div class="photo">
+            <img src="thumbnail_planet.jpeg" alt="planet graphic"/>
+          </div>
           <li> <%= song.title %></li>
           <li> <%= song.length %></li>
           <li> <%= song.play_count %></li>

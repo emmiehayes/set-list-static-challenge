@@ -5,13 +5,14 @@ body {
 
 h1{
   font-size: 2em;
-  float: center;
+  text-align: center;
   font-style: bold;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
+  grid-row-gap: 25px;
 }
