@@ -1,28 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Playlist</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="css" href="css/reset.css">
+    <link rel="stylesheet" type="css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
-
   <body>
-    <header>
       <h1>SONGS</h1>
-    </header>
-    <section>
+    <section class="song-grid">
         <% songs.each do |song| %>
         <ul>
+          <img src="planet.jpg" alt="planet graphic"/>
           <li> <%= song.title %></li>
           <li> <%= song.length %></li>
           <li> <%= song.play_count %></li>
-          <% if song.playlist %>
-            <li> <%= song.playlist.name %></li>
-          <% end %>
         </ul>
         <% end %>
     </section>
-    <footer></footer>
   </body>
 </html>
